@@ -1,0 +1,238 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Week 2</title>
+    <style>
+  
+
+   * {
+     box-sizing: border-box;
+     margin: 20;
+     padding: 20;
+     }
+
+   #he {
+   margin-bottom: 15px;
+   text-align: center;
+   font-style: italic;
+   font-size: auto;
+   }
+
+   h1 {
+   margin-bottom: 15px;
+   text-align: center;
+   font-style: italic;
+   font-size: 30px;
+   }
+
+   #p1 {
+   border: 1px solid black;
+   background-color: rgb(30, 220, 60);
+   padding: 10px 10px 10px 10px;
+   width: 90%;
+   height: 160px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: italic;
+   color: white;
+   text-align: justify;
+   font-size: auto;
+
+   }
+   #p2 {
+   border: 1px solid black;
+   background-color: rgb(250, 100, 50);
+   padding: 10px 10px 10px 10px;
+   width: 90%;
+   height: 160px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: italic;
+   color: white;
+   text-align: justify;
+   font-size: auto;
+   }
+   #p3 {
+   border: 1px solid black;
+   background-color: rgb(250, 0, 250);
+   padding: 10px 10px 10px 10px;
+   width: 90%;
+   height: 160px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: italic;
+   color: white;
+   text-align: justify;
+   font-size: auto;
+
+  
+   }
+   .span1 {
+   background-color: blue; 
+   margin: 65%;
+   padding: 5px 20px 5px 5px;
+   font-size: 1.5em;
+   font-weight: bold;
+   color: white;
+   font-style: italic;
+
+   }
+
+   .row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (max-width: 991px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 10px) and (max-width: 767px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+   </style>
+  </head>
+
+
+ <body>
+
+ <header id= "he">
+      &quot; In this web page I show an HTML document with CSS stylesheet and responsive layout for desktop, tablet and mobile phone screens. &quot;. <nav>I hope you like the colors ¡hahaha!. By &COPY; Alejandro R</nav>
+ </header>
+
+  <h1> Main Section</h1>
+  
+  
+   <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12"><p id="p1"><span class="span1">Frame 1</span><br><br>This is the first item of the page and it have green background color.</p></div>
+    <div class="col-lg-4 col-md-6 col-sm-12"><p id="p2"><span class="span1">Frame 2</span><br><br>This is the second item of the page and it have orange background color.</p></div>
+    <div class="col-lg-4 col-md-6 col-sm-12"><p id="p3"><span class="span1">Frame 3</span><br><br>This is the third item of the page and it have purple background color.</p></div>
+   </div>
+  </div>
+
+ </body>
+</html>
